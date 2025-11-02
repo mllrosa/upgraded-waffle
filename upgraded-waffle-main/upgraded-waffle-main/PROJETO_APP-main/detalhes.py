@@ -143,7 +143,7 @@ def DetalhesView(page: ft.Page):
                         content=ft.Row(
                             [
                                 ft.Text(dia, size=16),
-                                ft.IconButton(ft.Icons.ADD_CIRCLE_OUTLINE)
+                                # ft.IconButton(ft.Icons.ADD_CIRCLE_OUTLINE)
                             ],
                             alignment="spaceBetween"
                         ),
