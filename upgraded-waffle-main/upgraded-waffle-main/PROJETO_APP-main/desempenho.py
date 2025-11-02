@@ -413,7 +413,7 @@ def DesempenhoView(page: ft.Page):
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
         )
    
-    page.add(topo, appbar, navbar, ocorenrias_card)
+    # page.add(topo, appbar, navbar, ocorenrias_card)
 
     return ft.View(
         route="/desempenho",
@@ -427,4 +427,4 @@ def DesempenhoView(page: ft.Page):
         horizontal_alignment="center"
     )
 
-ft.app(target = DesempenhoView)
+# ft.app(target = DesempenhoView)

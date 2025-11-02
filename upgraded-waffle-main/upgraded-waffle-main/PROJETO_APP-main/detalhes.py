@@ -208,5 +208,4 @@ def DetalhesView(page: ft.Page):
         ]
     )
 
-# ==================== RODAR APP ====================
-# ft.app(target=DetalhesView, assets_dir="assets")
+
